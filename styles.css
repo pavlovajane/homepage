@@ -70,7 +70,7 @@ ul.contact-list {
     padding-top: 30px;
 }
 
-.interests-body, .learnings-body {
+.interests-body, .learnings-body, .index-body {
     background-color: #206020;
 }
 
@@ -131,7 +131,7 @@ ul.contact-list {
 
 }
 
-.contact-body, {
+.contact-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -161,7 +161,7 @@ a:link, a:visited, a:hover, .intro-text,
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
-    color: #grey;
+    color: grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
