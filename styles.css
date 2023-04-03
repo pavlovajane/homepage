@@ -70,11 +70,8 @@ ul.contact-list {
     padding-top: 30px;
 }
 
-.interests-body, .learnings-body, .index-body {
+.interests-body, .learnings-body, .index-body, .resume-body {
     background-color: #206020;
-}
-
-.learnings-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -129,14 +126,6 @@ ul.contact-list {
     padding-left:1em;
     padding-right:1em;
 
-}
-
-.contact-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    background-color: #206020;
 }
 
 .logo,
