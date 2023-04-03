@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+.main-menu {
+    padding-left: 5px;
+}
+
+.contacts {
+    background-color: #206020;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul.contact-list {
+    flex-direction: column;
+}
+
+.contact-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#home {
+    padding-bottom: 20px;
+}
+
+.carousel, .accordion {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.accordion-button {
+    color: grey;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e5e7eb;
+    color: darkgrey;
+}
+
+.accordion-button:focus {
+    border-color: green;
+    box-shadow: 0 0 0 0.25rem #198754;
+}
+
+.header-home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+.interests-body, .learnings-body {
+    background-color: #206020;
+}
+
+.learnings-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: #206020;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro-text {
+    padding-right:10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+.left-intro-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.intro-img {
+    display: flex;
+    width: 40%;
+    object-fit: contain;
+    background-color: #206020;
+}
+
+.contact-img {
+    width: 60%;
+    padding-left:1em;
+    padding-right:1em;
+
+}
+
+.contact-body, {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #206020;
+}
+
+.logo,
+.call-to-action .left-text strong {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a:link, a:visited, a:hover, .intro-text,
+.call-to-action .left-text div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    padding-right: 5px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em 3em;
+    text-align: right;
+}
+
+.quote p {
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.footer {
+    background-color: #206020;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
